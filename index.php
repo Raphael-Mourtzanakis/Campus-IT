@@ -55,7 +55,7 @@
                     echo "
                         <tr>
                             <th> ".$ligne["nom"]."</th>
-                            <th> ".$ligne["volume"]."</th>
+                            <th> ".$ligne["volume"]." Go</th>
                         </tr>
                     ";
                 }
@@ -83,7 +83,7 @@
                         echo "
                                 <tr>
                                     <th> ".$ligne["mois"]."</th>
-                                    <th> ".$ligne["volume"]."</th>
+                                    <th> ".$ligne["volume"]." Go</th>
                                 </tr>
                             ";
                     }
@@ -114,8 +114,8 @@
                         echo "
                                 <tr>
                                     <th> ".$ligne["mois"]."</th>
-                                    <th> ".$ligne["stockage"]."</th>
-                                    <th> ".$ligne["reseau"]."</th>
+                                    <th> ".$ligne["stockage"]." Go</th>
+                                    <th> ".$ligne["reseau"]." Go</th>
                                 </tr>
                             ";
                     }

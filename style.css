@@ -91,7 +91,7 @@ h3
     {
         font-size: 25px;
         margin-bottom: 20px;
-        color: #431b00;
+        color: #202020;
     }
 
 ::selection
@@ -109,7 +109,7 @@ tr th
 
 tbody tr th:hover
 {
-    background-color: rgba(0, 0, 0, 0.08);
+    background-color: rgba(0, 0, 0, 0.065);
     transition: 0.15s ease;
 }
 
@@ -127,14 +127,16 @@ tbody tr th
     border-right: 1px rgba(0, 0, 0, 0.05) solid;
     border-radius: 0;
     transition: 0.2s ease;
+	color: rgb(60, 60, 60);
 }
 thead tr th
 {
     font-weight: 600;
-    background-color: #ededed;
+    background-color: #e3e3e3;
     padding: 15px;
     border-bottom: 1px rgba(0, 0, 0, 0.2) solid;
     border-right: 1px rgba(0, 0, 0, 0.1) solid;
+	color: rgb(31, 31, 31);
 }
 
 th
