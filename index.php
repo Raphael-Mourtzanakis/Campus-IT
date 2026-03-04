@@ -23,6 +23,13 @@
           messageErreur($erreur);
       }
   ?>
+    <nav>
+        <div class="nav-text">
+            <p class="website-title">Campus IT</p>
+            <p>Dashboard</p>
+        </div>
+    </nav>
+
     <div class="tab">
       <button class="tablinks" onclick="openTab(event, 'Tab1')">Top applications</button>
       <button class="tablinks" onclick="openTab(event, 'Tab2')">Évolution mensuelle</button>
